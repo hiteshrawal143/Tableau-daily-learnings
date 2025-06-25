@@ -124,7 +124,7 @@ Well-known companies using Tableau for data analysis and reporting include:
 - Adobe
 - Cisco
 - Deloitte
-- Walmart
+- Walmart etc.
 
 They use Tableau to monitor performance, analyze customer behavior, and track business KPIs.
 
