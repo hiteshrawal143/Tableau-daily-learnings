@@ -77,7 +77,17 @@ Displaying `Sales` by State with deeper color representing higher values.
 
 ---
 
-## ⚙️ 3. Map Customization Options
+## ✨ 3. Highlighter
+
+### 🧠 What is Highlighter?
+A **Highlighter** is an interactive control that lets users quickly highlight one or more values on the chart (e.g., search & focus on "Delhi").
+
+### ✅ Use Case:
+Highlight a particular state on the map without changing or filtering the entire view.
+
+---
+
+## ⚙️ 4. Map Customization Options
 
 ### 🧠 What Are These?
 Tableau lets you customize the look and feel of the map background and layers using **Map Options**.
@@ -98,6 +108,7 @@ Go to **Map → Map Layers** (in the top menu bar)
 | **Map Style**               | Change theme: Normal, Dark, Light, Satellite, Streets |
 | **Background Layers**       | Show/hide coastline, country borders, land cover, etc. |
 | **Zoom & Pan**              | Adjust map position manually |
+| **and many more...**           | Many more... |
 
 ---
 
@@ -107,4 +118,15 @@ Go to **Map → Map Layers** (in the top menu bar)
 - Satellite style gives real-world map feel  
 
 ---
+---
 
+## 🧠 Summary of Learnings
+
+| Feature         | Purpose                                                          |
+|-----------------|------------------------------------------------------------------|
+| Symbol Map      | Show values with icons at lat-long positions                    |
+| Filled Map      | Show regional values using colored area fills                   |
+| Highlighter     | Interactively search & highlight marks without filtering view   |
+| Map Customization | Control layers, borders, labels, and base themes              |
+
+---
