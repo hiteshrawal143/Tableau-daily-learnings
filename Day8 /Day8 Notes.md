@@ -28,3 +28,50 @@ Often, datasets contain **too many categories**, many of which may be small or n
 - ✅ Helping you focus on broader business groupings
 
 ---
+
+
+You want to group them as:
+
+- **Technology** → Phones, Copiers  
+- **Furniture** → Chairs, Tables  
+- **Office Supplies** → Accessories, Binders
+
+Instead of analyzing all 6 separately, you can analyze just 3 business groups using Tableau Group.
+
+---
+
+## 🛠️ How to Create a Group in Tableau
+
+### Method 1: Manual Grouping in the View
+
+1. In the view (e.g., bar chart), **select multiple dimension values** (e.g., Ctrl + click on "Phones" and "Copiers")
+2. Right-click → Click **Group**
+3. A new field like `Sub-Category (Group)` will be created in the Data pane
+4. Drag this new group field into the view for analysis
+
+### Method 2: Create Group from Data Pane
+
+1. Right-click the dimension field (e.g., `Sub-Category`) → Select **Create → Group**
+2. In the dialog box, select values and click **Group**
+3. Rename the groups as needed
+4. Click OK → Group field appears in Data Pane
+
+---
+
+## 📊 Use Case I Tried
+
+**Grouped multiple states** into two custom groups:  
+
+Then I compared `Sales` across these two groups.
+
+📌 This made it easier to see regional performance, instead of analyzing each state individually.
+
+---
+
+## 🧠 Summary of Learnings
+
+| Feature     | Purpose                                | Benefit                                |
+|-------------|----------------------------------------|----------------------------------------|
+| Group       | Combine dimension values into one unit | Simplifies analysis and reduces clutter|
+
+---
