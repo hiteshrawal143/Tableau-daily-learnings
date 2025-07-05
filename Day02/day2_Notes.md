@@ -94,11 +94,3 @@ In Tableau, every field in your dataset is either a **Dimension** or a **Measure
 
 ---
 
-## 🧪 Dataset Used:
-Sample Superstore (built-in Tableau dataset)
-
----
-
-📂 **Files in this Folder:**
-- 
-
